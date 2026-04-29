@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una-House | Modern Space Capsule House</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+        body{color:#333;line-height:1.6;}
+        .container{width:90%;max-width:1200px;margin:0 auto;}
+        header{background:#111;color:#fff;padding:1rem 0;}
+        .nav{display:flex;justify-content:space-between;align-items:center;}
+        .logo{font-size:24px;font-weight:bold;}
+        .nav-menu a{color:#fff;text-decoration:none;margin-left:25px;}
+        .banner{height:80vh;background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./images/banner.png') center/cover no-repeat;color:#fff;display:flex;align-items:center;text-align:center;}
+        .banner h1{font-size:48px;margin-bottom:20px;}
+        .banner p{font-size:18px;margin-bottom:30px;}
+        .btn{padding:12px 30px;background:#2980b9;color:#fff;text-decoration:none;border-radius:4px;display:inline-block;}
+        .section{padding:60px 0;}
+        .title{text-align:center;font-size:32px;margin-bottom:50px;}
+        .product-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
+        .product-card{background:#f8f8f8;border-radius:8px;overflow:hidden;transition:0.3s;}
+        .product-card:hover{transform:translateY(-5px);}
+
+        .product-card img{width:100%;height:240px;object-fit:contain;background:#f8f8f8;}
+
+         .product-info{padding:25px;}
+        .product-info h3{margin-bottom:10px;}
+        .product-info p{margin-bottom:15px;}
+        .advantage{background:#f0f4f8;}
+        .adv-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
+        .adv-item{text-align:center;padding:20px;}
+        .contact{background:#111;color:#fff;text-align:center;}
+        footer{text-align:center;padding:20px;background:#000;color:#999;}
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="container nav">
+        <div class="logo">Una-House</div>
+        <div class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#product">Products</a>
+            <a href="#advantage">Advantages</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</header>
+
+<section class="banner" id="home">
+    <div class="container">
+        <h1>Una-House | Capsule House</h1>
+
+
+
+
+
+
+        <p>Modern Portable Living Pod | Luxury Resort & Mobile Office</p>
+        <a href="#product" class="btn">View Products</a>
+    </div>
+</section>
+
+<section class="section" id="product">
+    <div class="container">
+     
+
+ <div style="display:flex; justify-content:center; gap:25px; margin-bottom:30px; font-size:18px;">
+            <div onclick="show(1)" style="cursor:pointer; font-weight:bold; border-bottom:3px solid #2980b9; padding:5px 0;" id="t1">TK Series</div>
+            <div onclick="show(2)" style="cursor:pointer; padding:5px 0;" id="t2">EU Series</div>
+            <div onclick="show(3)" style="cursor:pointer; padding:5px 0;" id="t3">D&T Series</div>
+        </div>
+
+
+<!-- 系列1（点击切换显示） -->
+<div id="c1" style="display:block;">
+
+        <div class="product-wrap">
+            <div class="product-card">
+                <img src="./images/TKSeries/TK1.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK1 Capsule House</h3>
+                   <p>FOB price：$55,548</p>
+                    <a href="./TKSeries/productTK1.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <img src="./images/TKSeries/TK2.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK2 Capsule House</h3>
+                   <p>FOB price：$27,774</p>
+                    <a href="./TKSeries/productTK2.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+               <div class="product-card">
+                <img src="./images/TKSeries/TK3.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK3 Capsule House</h3>
+                   <p>FOB price：$27,774</p>
+                    <a href="./TKSeries/productTK3.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+
+   <div class="product-card">
+                <img src="./images/TKSeries/TK4.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK4 Capsule House</h3>
+                   <p>FOB price：$20,529</p>
+                    <a href="./TKSeries/productTK4.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+
+   <div class="product-card">
+                <img src="./images/TKSeries/TK5.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK5 Capsule House</h3>
+                   <p>FOB price：$12,076</p>
+                    <a href="./TKSeries/productTK5.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+   <div class="product-card">
+                <img src="./images/TKSeries/TK6.png" alt="Resort Capsule">
+                <div class="product-info">
+                    <h3>Una House | TK6 Capsule House</h3>
+                   <p>FOB price：$55,600</p>
+                    <a href="./TKSeries/productTK6.html" class="btn">View Details</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+ <!-- 系列2（点击切换显示） -->
+        <div id="c2" style="display:none;">
+            <div class="product-wrap">
+                <div class="product-card">
+                    <img src="./images/EUSeries/A3.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | A3 Space Capsule</h3>
+                        <p>FOB price：$20,999</p>   
+                        <a href="./EUSeries/productA3.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+   <div class="product-card">
+                    <img src="./images/EUSeries/A5.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | A5 Space Capsule</h3>
+                        <p>FOB price：$24,999 </p>
+                        <a href="./EUSeries/productA5.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+   <div class="product-card">
+                    <img src="./images/EUSeries/A7.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | A7 Space Capsule</h3>
+                        <p>FOB price：$27,999  </p>
+                        <a href="./EUSeries/productA7.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/A9.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | A9 Space Capsule</h3>
+                        <p>FOB price：$37,999   </p>
+                        <a href="./EUSeries/productA9.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/F7.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | F7 Space Capsule</h3>
+                        <p>FOB price：$27,999   </p>
+                        <a href="./EUSeries/productF7.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K3.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K3 Space Capsule</h3>
+                        <p>FOB price：$20,999    </p>
+                        <a href="./EUSeries/productK3.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K5.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K5 Space Capsule</h3>
+                        <p>FOB price：$24,999     </p>
+                        <a href="./EUSeries/productK5.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K6.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K6 Space Capsule</h3>
+                        <p>FOB price：$25,999    </p>
+                        <a href="./EUSeries/productK6.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K7.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K7 Space Capsule</h3>
+                        <p>FOB price：$28,999     </p>
+                        <a href="./EUSeries/productK7.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K6Q.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K6Q Space Capsule</h3>
+                        <p>FOB price：$26,999     </p>
+                        <a href="./EUSeries/productK6Q.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/K7Q.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | K7Q Space Capsule</h3>
+                        <p>FOB price：$32,999      </p>
+                        <a href="./EUSeries/productK7Q.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/P5.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | P5 Space Capsule</h3>
+                        <p>FOB price：$28,999      </p>
+                        <a href="./EUSeries/productP5.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+<div class="product-card">
+                    <img src="./images/EUSeries/P7.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | P7 Space Capsule</h3>
+                        <p>FOB price：$32,999      </p>
+                        <a href="./EUSeries/productP7.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+
+<div class="product-card">
+                    <img src="./images/EUSeries/X5.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | X5 Space Capsule</h3>
+                        <p>FOB price：$25,999       </p>
+                        <a href="./EUSeries/productX5.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+
+<div class="product-card">
+                    <img src="./images/EUSeries/X7.png" alt="">
+                    <div class="product-info">
+                        <h3>Una-House | X7 Space Capsule</h3>
+                        <p>FOB price：$29,999       </p>
+                        <a href="./EUSeries/productX7.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+ <!-- 系列3（点击切换显示） -->
+ <div id="c3" style="display:none;">
+            <div class="product-wrap">
+                <div class="product-card">
+
+                     <img src="./images/DTSeries/1.1.png" alt="Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D1  Space Capsule</h3>
+        <p>FOB price：$14,325.84</p>
+              <a href="./DTSeries/productD1.html" class="btn">View Details</a>
+
+                    </div>
+                </div>
+
+
+
+        <div class="product-card">
+    <img src="./images/DTSeries/2.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D2 Space Capsule</h3>
+        <p>FOB price：$17,233.43</p>
+              <a href="./DTSeries/productD2.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/5.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D5 Space Capsule</h3>
+        <p>FOB price：$15,618.40</p>
+               <a href="./DTSeries/productD5.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/6.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D6 Space Capsule</h3>
+        <p>FOB price：$20,464.04</p>
+               <a href="./DTSeries/productD6.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/7.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D7 Space Capsule</h3>
+        <p>FOB price：$22,079.35</p>
+               <a href="./DTSeries/productD7.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/8.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D8 Space Capsule</h3>
+        <p>FOB price：$20,464.33</p>
+               <a href="./DTSeries/productD8.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/9.1.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | D9 Space Capsule</h3>
+        <p>FOB price：$22,079.63</p>
+               <a href="./DTSeries/productD9.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T04.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T04 Space Capsule</h3>
+        <p>FOB price：$13,441.01</p>
+               <a href="./DTSeries/productT04.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T05.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T05 Space Capsule</h3>
+        <p>FOB price：$14,325.84</p>
+               <a href="./DTSeries/productT05.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T06.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T06 Space Capsule</h3>
+        <p>FOB price：$20,463.48</p>
+               <a href="./DTSeries/productT06.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T07.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T07 Space Capsule</h3>
+        <p>FOB price：$17,233.15</p>
+               <a href="./DTSeries/productT07.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T08.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T08 Space Capsule</h3>
+        <p>FOB price：$17,233.15</p>
+               <a href="./DTSeries/productT08.html" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="product-card">
+    <img src="./images/DTSeries/T09.png" alt="New Capsule House">
+    <div class="product-info">
+        <h3>Una-House | T09 Space Capsule</h3>
+        <p>FOB price：$34,466.29</p>
+               <a href="./DTSeries/productT09.html" class="btn">View Details</a>
+    </div>
+</div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</section>
+
+<section class="section advantage" id="advantage">
+    <div class="container">
+        <h2 class="title">Why Choose Una-House</h2>
+        <div class="adv-list">
+            <div class="adv-item"><h3>Fast Installation</h3><p>One day installation</p></div>
+            <div class="adv-item"><h3>Sound & Heat Insulation</h3><p>Comfortable all year</p></div>
+            <div class="adv-item"><h3>Mobile & Reusable</h3><p>Move anywhere easily</p></div>
+            <div class="adv-item"><h3>Clearly Marked Prices</h3><p>Wholesale price</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- 切换代码 -->
+<script>
+function show(n){
+    document.getElementById('c1').style.display='none'
+    document.getElementById('c2').style.display='none'
+    document.getElementById('c3').style.display='none'
+    document.getElementById('c'+n).style.display='block'
+
+    document.getElementById('t1').style.border='none'
+    document.getElementById('t2').style.border='none'
+    document.getElementById('t3').style.border='none'
+    document.getElementById('t'+n).style.borderBottom='3px solid #2980b9'
+    document.getElementById('t'+n).style.fontWeight='bold'
+}
+</script>
+
+
+
+
+
+
+
+
+<section class="section contact" id="contact">
+    <div class="container">
+        <h2 class="title">Contact Una-House</h2>
+        <p>WhatsApp : 8615219871597</p>
+        <p>Email: una.transactnow@gmail.com</p>
+
+<div style="text-align:center; background:#111; padding:20px 0; display:flex; gap:20px; justify-content:center;">
+
+<a href="https://www.xiaohongshu.com/user/profile/6516306d000000002402df4c?xsec_token=YB1vaouTFyP-NL3l1-TGpVxRz9CUxsktWCkXc2gG6F1NM=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODszNjY1Ok02NzUyOTgwNjg3OTlISzpM&apptime=1777083837&share_id=4e1b56b5c0484cd89a3d2f6baa775f88" target="_blank" style="display: inline-block; width: 28px; height: 28px; border-radius: 6px; overflow: hidden;">
+  <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- 官方红色圆角背景 -->
+    <rect width="100" height="100" fill="#FF2442" rx="18" ry="18"/>
+    <!-- 正确的“小红书”白色文字（用系统字体渲染，保证文字正确） -->
+    <text x="50" y="58" font-size="30" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle" fill="#FFFFFF">小红书</text>
+  </svg>
+</a>
+
+
+  <a href="https://www.tiktok.com/@una89744?_r=1&_t=ZP-95nu8UOIpPK" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tiktok.svg" width="28" height="28" style="filter:invert(1);">
+  </a>
+  </a>
+  <a href="https://www.instagram.com/una915958?igsh=MTdmbzBidDBzdmphYg%3D%3D&utm_source=qr" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="28" height="28">
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61578249610722" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" width="28" height="28">
+  </a>
+</div>
+
+    </div>
+</section>
+
+<footer>© 2025 Una-House | All Rights Reserved</footer>
+
+<!-- 谷歌自动多语言翻译（支持：中/英/西/法/俄/阿） -->
+<div id="google_translate_element" style="position:fixed;top:15px;right:20px;z-index:9999;"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,zh-CN,es,fr,ru,ar',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+
+</body>
+</html>

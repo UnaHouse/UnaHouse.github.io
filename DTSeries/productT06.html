@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cabin - Una-House</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+        body{color:#333;line-height:1.8;}
+        .container{width:90%;max-width:900px;margin:0 auto;}
+        header{background:#111;color:#fff;padding:1rem 0;}
+        .nav{display:flex;justify-content:space-between;align-items:center;}
+        .logo{font-size:24px;font-weight:bold;}
+        .nav-menu a{color:#fff;text-decoration:none;margin-left:25px;}
+        .section{padding:60px 0;}
+        .title{font-size:32px;margin-bottom:20px;}
+        .product-img{width:100%;border-radius:8px;margin-bottom:30px;}
+        .btn{padding:12px 30px;background:#2980b9;color:#fff;text-decoration:none;border-radius:4px;display:inline-block;margin-top:20px;}
+        footer{text-align:center;padding:20px;background:#000;color:#999;}
+    </style>
+</head>
+<body>
+
+<!-- 返回按钮：固定左上角 -->
+<a href="javascript:history.back()"
+style="position:fixed; top:18px; left:20px; z-index:9999; padding:8px 16px; background:#ffffff; color:#000000; text-decoration:none; border-radius:4px; font-size:14px; border:1px solid #ddd;">
+<
+</a>
+
+
+
+<header>
+    <div class="container nav">
+        <div class="logo">Una-House</div>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#product">Products</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h1 class="title">Una-House Custom Luxury Cabin</h1>
+        <!-- 多图轮播（左右半透明白色侧边箭头） 开始 -->
+<div style="position:relative; margin-bottom:30px; border-radius:8px; overflow:hidden;">
+    <div id="slider" style="display:flex; width:100%; overflow:hidden;">
+        <img src="../images/DTSeries/T06.png" style="width:100%; flex-shrink:0; height:500px; object-fit:contain; background:#f8f8f8;">
+        <img src="../images/DTSeries/T06.1.png" style="width:100%; flex-shrink:0; height:500px; object-fit:contain; background:#f8f8f8;">
+     <img src="../images/DTSeries/a.png" style="width:100%; flex-shrink:0; height:500px; object-fit:contain; background:#f8f8f8;">
+<img src="../images/DTSeries/a.1.png" style="width:100%; flex-shrink:0; height:500px; object-fit:contain; background:#f8f8f8;">
+<img src="../images/DTSeries/a.2.png" style="width:100%; flex-shrink:0; height:500px; object-fit:contain; background:#f8f8f8;">
+    </div>
+
+    <button onclick="slide(-1)" style="position:absolute; left:0; top:50%; transform:translateY(-50%); background:rgba(255,255,255,0.7); border:none; width:40px; height:60px; border-radius:0 30px 30px 0; cursor:pointer; font-size:20px; color:#333; display:flex; align-items:center; justify-content:center;">&lt;</button>
+    <button onclick="slide(1)" style="position:absolute; right:0; top:50%; transform:translateY(-50%); background:rgba(255,255,255,0.7); border:none; width:40px; height:60px; border-radius:30px 0 0 30; cursor:pointer; font-size:20px; color:#333; display:flex; align-items:center; justify-content:center;">&gt;</button>
+</div>
+
+<script>
+let index=0;
+function slide(n){
+    const s=document.getElementById("slider");
+    index+=n;
+    if(index>=s.children.length)index=0;
+    if(index<0)index=s.children.length-1;
+    s.scrollTo({left:s.clientWidth*index,behavior:"smooth"});
+}
+</script>
+<!-- 多图轮播结束 -->
+       <p><strong>FOB Price:</strong> $20,463.48</p>
+        <p><strong>Application:</strong> High-end resort, private villa, luxury living space.</p>
+        <p><strong>Features:</strong> Super insulation, luxury decoration, all-weather use.</p>
+        <p><strong>Customization:</strong> Full customization: size, color, layout, interior, equipment.</p>
+        <p><strong>Service:</strong> OEM & ODM supported for global buyers.</p>
+        <a href="../index.html#contact" class="btn">Contact For Wholesale</a>
+    </div>
+</section>
+
+<footer>© 2025 Una-House | All Rights Reserved</footer>
+</body>
+</html>
